@@ -3,10 +3,10 @@ package types
 import (
 	"fmt"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	tmjson "github.com/tendermint/tendermint/libs/json"
-	tmpubsub "github.com/tendermint/tendermint/libs/pubsub"
-	tmquery "github.com/tendermint/tendermint/libs/pubsub/query"
+	abci "github.com/MagHErmit/tendermint/abci/types"
+	tmjson "github.com/MagHErmit/tendermint/libs/json"
+	tmpubsub "github.com/MagHErmit/tendermint/libs/pubsub"
+	tmquery "github.com/MagHErmit/tendermint/libs/pubsub/query"
 )
 
 // Reserved event types (alphabetically sorted).

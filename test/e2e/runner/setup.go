@@ -19,13 +19,13 @@ import (
 
 	"github.com/BurntSushi/toml"
 
-	"github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/privval"
-	e2e "github.com/tendermint/tendermint/test/e2e/pkg"
-	"github.com/tendermint/tendermint/types"
+	"github.com/MagHErmit/tendermint/config"
+	"github.com/MagHErmit/tendermint/crypto/ed25519"
+	"github.com/MagHErmit/tendermint/libs/log"
+	"github.com/MagHErmit/tendermint/p2p"
+	"github.com/MagHErmit/tendermint/privval"
+	e2e "github.com/MagHErmit/tendermint/test/e2e/pkg"
+	"github.com/MagHErmit/tendermint/types"
 )
 
 const (

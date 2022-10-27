@@ -9,9 +9,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	cfg "github.com/tendermint/tendermint/config"
-	tmos "github.com/tendermint/tendermint/libs/os"
-	nm "github.com/tendermint/tendermint/node"
+	cfg "github.com/MagHErmit/tendermint/config"
+	tmos "github.com/MagHErmit/tendermint/libs/os"
+	nm "github.com/MagHErmit/tendermint/node"
 )
 
 var (

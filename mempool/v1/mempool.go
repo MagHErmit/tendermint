@@ -8,14 +8,14 @@ import (
 	"sync/atomic"
 	"time"
 
+	abci "github.com/MagHErmit/tendermint/abci/types"
+	"github.com/MagHErmit/tendermint/config"
+	"github.com/MagHErmit/tendermint/libs/clist"
+	"github.com/MagHErmit/tendermint/libs/log"
+	"github.com/MagHErmit/tendermint/mempool"
+	"github.com/MagHErmit/tendermint/proxy"
+	"github.com/MagHErmit/tendermint/types"
 	"github.com/creachadair/taskgroup"
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/libs/clist"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/mempool"
-	"github.com/tendermint/tendermint/proxy"
-	"github.com/tendermint/tendermint/types"
 )
 
 var _ mempool.Mempool = (*TxMempool)(nil)

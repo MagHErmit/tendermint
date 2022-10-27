@@ -5,8 +5,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	tmos "github.com/tendermint/tendermint/libs/os"
-	"github.com/tendermint/tendermint/p2p"
+	tmos "github.com/MagHErmit/tendermint/libs/os"
+	"github.com/MagHErmit/tendermint/p2p"
 )
 
 // GenNodeKeyCmd allows the generation of a node key. It prints node's ID to

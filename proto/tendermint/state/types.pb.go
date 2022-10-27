@@ -5,13 +5,13 @@ package state
 
 import (
 	fmt "fmt"
+	types "github.com/MagHErmit/tendermint/abci/types"
+	types1 "github.com/MagHErmit/tendermint/proto/tendermint/types"
+	version "github.com/MagHErmit/tendermint/proto/tendermint/version"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	_ "github.com/gogo/protobuf/types"
 	github_com_gogo_protobuf_types "github.com/gogo/protobuf/types"
-	types "github.com/tendermint/tendermint/abci/types"
-	types1 "github.com/tendermint/tendermint/proto/tendermint/types"
-	version "github.com/tendermint/tendermint/proto/tendermint/version"
 	io "io"
 	math "math"
 	math_bits "math/bits"

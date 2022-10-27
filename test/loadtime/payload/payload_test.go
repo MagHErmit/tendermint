@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
+	"github.com/MagHErmit/tendermint/test/loadtime/payload"
 	"github.com/google/uuid"
-	"github.com/tendermint/tendermint/test/loadtime/payload"
 )
 
 const payloadSizeTarget = 1024 // 1kb

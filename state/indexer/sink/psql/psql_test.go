@@ -19,9 +19,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/state/txindex"
-	"github.com/tendermint/tendermint/types"
+	abci "github.com/MagHErmit/tendermint/abci/types"
+	"github.com/MagHErmit/tendermint/state/txindex"
+	"github.com/MagHErmit/tendermint/types"
 
 	// Register the Postgres database driver.
 	_ "github.com/lib/pq"

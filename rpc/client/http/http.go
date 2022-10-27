@@ -7,16 +7,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tendermint/tendermint/libs/bytes"
-	tmjson "github.com/tendermint/tendermint/libs/json"
-	"github.com/tendermint/tendermint/libs/log"
-	tmpubsub "github.com/tendermint/tendermint/libs/pubsub"
-	"github.com/tendermint/tendermint/libs/service"
-	tmsync "github.com/tendermint/tendermint/libs/sync"
-	rpcclient "github.com/tendermint/tendermint/rpc/client"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	jsonrpcclient "github.com/tendermint/tendermint/rpc/jsonrpc/client"
-	"github.com/tendermint/tendermint/types"
+	"github.com/MagHErmit/tendermint/libs/bytes"
+	tmjson "github.com/MagHErmit/tendermint/libs/json"
+	"github.com/MagHErmit/tendermint/libs/log"
+	tmpubsub "github.com/MagHErmit/tendermint/libs/pubsub"
+	"github.com/MagHErmit/tendermint/libs/service"
+	tmsync "github.com/MagHErmit/tendermint/libs/sync"
+	rpcclient "github.com/MagHErmit/tendermint/rpc/client"
+	ctypes "github.com/MagHErmit/tendermint/rpc/core/types"
+	jsonrpcclient "github.com/MagHErmit/tendermint/rpc/jsonrpc/client"
+	"github.com/MagHErmit/tendermint/types"
 )
 
 /*

@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tendermint/tendermint/store"
-	"github.com/tendermint/tendermint/test/loadtime/report"
+	"github.com/MagHErmit/tendermint/store"
+	"github.com/MagHErmit/tendermint/test/loadtime/report"
 	dbm "github.com/tendermint/tm-db"
 )
 

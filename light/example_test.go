@@ -11,13 +11,13 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/tendermint/tendermint/abci/example/kvstore"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/light"
-	"github.com/tendermint/tendermint/light/provider"
-	httpp "github.com/tendermint/tendermint/light/provider/http"
-	dbs "github.com/tendermint/tendermint/light/store/db"
-	rpctest "github.com/tendermint/tendermint/rpc/test"
+	"github.com/MagHErmit/tendermint/abci/example/kvstore"
+	"github.com/MagHErmit/tendermint/libs/log"
+	"github.com/MagHErmit/tendermint/light"
+	"github.com/MagHErmit/tendermint/light/provider"
+	httpp "github.com/MagHErmit/tendermint/light/provider/http"
+	dbs "github.com/MagHErmit/tendermint/light/store/db"
+	rpctest "github.com/MagHErmit/tendermint/rpc/test"
 )
 
 // Automatically getting new headers and verifying them.

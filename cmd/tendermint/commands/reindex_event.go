@@ -8,16 +8,16 @@ import (
 	"github.com/spf13/cobra"
 	dbm "github.com/tendermint/tm-db"
 
-	abcitypes "github.com/tendermint/tendermint/abci/types"
-	tmcfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/libs/progressbar"
-	"github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/state/indexer"
-	blockidxkv "github.com/tendermint/tendermint/state/indexer/block/kv"
-	"github.com/tendermint/tendermint/state/indexer/sink/psql"
-	"github.com/tendermint/tendermint/state/txindex"
-	"github.com/tendermint/tendermint/state/txindex/kv"
-	"github.com/tendermint/tendermint/types"
+	abcitypes "github.com/MagHErmit/tendermint/abci/types"
+	tmcfg "github.com/MagHErmit/tendermint/config"
+	"github.com/MagHErmit/tendermint/libs/progressbar"
+	"github.com/MagHErmit/tendermint/state"
+	"github.com/MagHErmit/tendermint/state/indexer"
+	blockidxkv "github.com/MagHErmit/tendermint/state/indexer/block/kv"
+	"github.com/MagHErmit/tendermint/state/indexer/sink/psql"
+	"github.com/MagHErmit/tendermint/state/txindex"
+	"github.com/MagHErmit/tendermint/state/txindex/kv"
+	"github.com/MagHErmit/tendermint/types"
 )
 
 const (
@@ -36,8 +36,8 @@ var ReIndexEventCmd = &cobra.Command{
 	Long: `
 reindex-event is an offline tooling to re-index block and tx events to the eventsinks.
 You can run this command when the event store backend dropped/disconnected or you want to
-replace the backend. The default start-height is 0, meaning the tooling will start 
-reindex from the base block height(inclusive); and the default end-height is 0, meaning 
+replace the backend. The default start-height is 0, meaning the tooling will start
+reindex from the base block height(inclusive); and the default end-height is 0, meaning
 the tooling will reindex until the latest block height(inclusive). User can omit
 either or both arguments.
 

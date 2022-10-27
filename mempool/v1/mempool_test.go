@@ -15,14 +15,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/tendermint/abci/example/code"
-	"github.com/tendermint/tendermint/abci/example/kvstore"
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/mempool"
-	"github.com/tendermint/tendermint/proxy"
-	"github.com/tendermint/tendermint/types"
+	"github.com/MagHErmit/tendermint/abci/example/code"
+	"github.com/MagHErmit/tendermint/abci/example/kvstore"
+	abci "github.com/MagHErmit/tendermint/abci/types"
+	"github.com/MagHErmit/tendermint/config"
+	"github.com/MagHErmit/tendermint/libs/log"
+	"github.com/MagHErmit/tendermint/mempool"
+	"github.com/MagHErmit/tendermint/proxy"
+	"github.com/MagHErmit/tendermint/types"
 )
 
 // application extends the KV store application by overriding CheckTx to provide

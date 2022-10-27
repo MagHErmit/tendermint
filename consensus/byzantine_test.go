@@ -14,22 +14,22 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	abcicli "github.com/tendermint/tendermint/abci/client"
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/evidence"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/libs/service"
-	tmsync "github.com/tendermint/tendermint/libs/sync"
-	mempl "github.com/tendermint/tendermint/mempool"
+	abcicli "github.com/MagHErmit/tendermint/abci/client"
+	abci "github.com/MagHErmit/tendermint/abci/types"
+	"github.com/MagHErmit/tendermint/evidence"
+	"github.com/MagHErmit/tendermint/libs/log"
+	"github.com/MagHErmit/tendermint/libs/service"
+	tmsync "github.com/MagHErmit/tendermint/libs/sync"
+	mempl "github.com/MagHErmit/tendermint/mempool"
 
-	cfg "github.com/tendermint/tendermint/config"
-	mempoolv0 "github.com/tendermint/tendermint/mempool/v0"
-	mempoolv1 "github.com/tendermint/tendermint/mempool/v1"
-	"github.com/tendermint/tendermint/p2p"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/store"
-	"github.com/tendermint/tendermint/types"
+	cfg "github.com/MagHErmit/tendermint/config"
+	mempoolv0 "github.com/MagHErmit/tendermint/mempool/v0"
+	mempoolv1 "github.com/MagHErmit/tendermint/mempool/v1"
+	"github.com/MagHErmit/tendermint/p2p"
+	tmproto "github.com/MagHErmit/tendermint/proto/tendermint/types"
+	sm "github.com/MagHErmit/tendermint/state"
+	"github.com/MagHErmit/tendermint/store"
+	"github.com/MagHErmit/tendermint/types"
 )
 
 //----------------------------------------------

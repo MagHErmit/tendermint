@@ -10,13 +10,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/tendermint/crypto/merkle"
-	"github.com/tendermint/tendermint/libs/bits"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	"github.com/tendermint/tendermint/p2p"
-	tmcons "github.com/tendermint/tendermint/proto/tendermint/consensus"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	"github.com/tendermint/tendermint/types"
+	"github.com/MagHErmit/tendermint/crypto/merkle"
+	"github.com/MagHErmit/tendermint/libs/bits"
+	tmrand "github.com/MagHErmit/tendermint/libs/rand"
+	"github.com/MagHErmit/tendermint/p2p"
+	tmcons "github.com/MagHErmit/tendermint/proto/tendermint/consensus"
+	tmproto "github.com/MagHErmit/tendermint/proto/tendermint/types"
+	"github.com/MagHErmit/tendermint/types"
 )
 
 func TestMsgToProto(t *testing.T) {

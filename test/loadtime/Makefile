@@ -1,4 +1,4 @@
-GOMOD="github.com/tendermint/tendermint/test/loadtime"
+GOMOD="github.com/MagHErmit/tendermint/test/loadtime"
 OUTPUT?=build/
 
 build:

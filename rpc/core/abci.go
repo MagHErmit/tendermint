@@ -1,11 +1,11 @@
 package core
 
 import (
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/libs/bytes"
-	"github.com/tendermint/tendermint/proxy"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	rpctypes "github.com/tendermint/tendermint/rpc/jsonrpc/types"
+	abci "github.com/MagHErmit/tendermint/abci/types"
+	"github.com/MagHErmit/tendermint/libs/bytes"
+	"github.com/MagHErmit/tendermint/proxy"
+	ctypes "github.com/MagHErmit/tendermint/rpc/core/types"
+	rpctypes "github.com/MagHErmit/tendermint/rpc/jsonrpc/types"
 )
 
 // ABCIQuery queries the application for some information.

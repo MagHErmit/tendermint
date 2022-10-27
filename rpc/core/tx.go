@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"sort"
 
-	tmmath "github.com/tendermint/tendermint/libs/math"
-	tmquery "github.com/tendermint/tendermint/libs/pubsub/query"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	rpctypes "github.com/tendermint/tendermint/rpc/jsonrpc/types"
-	"github.com/tendermint/tendermint/state/txindex/null"
-	"github.com/tendermint/tendermint/types"
+	tmmath "github.com/MagHErmit/tendermint/libs/math"
+	tmquery "github.com/MagHErmit/tendermint/libs/pubsub/query"
+	ctypes "github.com/MagHErmit/tendermint/rpc/core/types"
+	rpctypes "github.com/MagHErmit/tendermint/rpc/jsonrpc/types"
+	"github.com/MagHErmit/tendermint/state/txindex/null"
+	"github.com/MagHErmit/tendermint/types"
 )
 
 // Tx allows you to query the transaction results. `nil` could mean the

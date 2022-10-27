@@ -3,11 +3,11 @@ package core
 import (
 	"time"
 
-	tmbytes "github.com/tendermint/tendermint/libs/bytes"
-	"github.com/tendermint/tendermint/p2p"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	rpctypes "github.com/tendermint/tendermint/rpc/jsonrpc/types"
-	"github.com/tendermint/tendermint/types"
+	tmbytes "github.com/MagHErmit/tendermint/libs/bytes"
+	"github.com/MagHErmit/tendermint/p2p"
+	ctypes "github.com/MagHErmit/tendermint/rpc/core/types"
+	rpctypes "github.com/MagHErmit/tendermint/rpc/jsonrpc/types"
+	"github.com/MagHErmit/tendermint/types"
 )
 
 // Status returns Tendermint status including node info, pubkey, latest block

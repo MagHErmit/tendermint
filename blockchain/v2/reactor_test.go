@@ -13,21 +13,21 @@ import (
 	"github.com/stretchr/testify/require"
 	dbm "github.com/tendermint/tm-db"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/behaviour"
-	bc "github.com/tendermint/tendermint/blockchain"
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/libs/service"
-	"github.com/tendermint/tendermint/mempool/mock"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/p2p/conn"
-	bcproto "github.com/tendermint/tendermint/proto/tendermint/blockchain"
-	"github.com/tendermint/tendermint/proxy"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/store"
-	"github.com/tendermint/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	abci "github.com/MagHErmit/tendermint/abci/types"
+	"github.com/MagHErmit/tendermint/behaviour"
+	bc "github.com/MagHErmit/tendermint/blockchain"
+	cfg "github.com/MagHErmit/tendermint/config"
+	"github.com/MagHErmit/tendermint/libs/log"
+	"github.com/MagHErmit/tendermint/libs/service"
+	"github.com/MagHErmit/tendermint/mempool/mock"
+	"github.com/MagHErmit/tendermint/p2p"
+	"github.com/MagHErmit/tendermint/p2p/conn"
+	bcproto "github.com/MagHErmit/tendermint/proto/tendermint/blockchain"
+	"github.com/MagHErmit/tendermint/proxy"
+	sm "github.com/MagHErmit/tendermint/state"
+	"github.com/MagHErmit/tendermint/store"
+	"github.com/MagHErmit/tendermint/types"
+	tmtime "github.com/MagHErmit/tendermint/types/time"
 )
 
 type mockPeer struct {
@@ -175,7 +175,7 @@ func newTestReactor(p testReactorParams) *BlockchainReactor {
 }
 
 // This test is left here and not deleted to retain the termination cases for
-// future improvement in [#4482](https://github.com/tendermint/tendermint/issues/4482).
+// future improvement in [#4482](https://github.com/MagHErmit/tendermint/issues/4482).
 // func TestReactorTerminationScenarios(t *testing.T) {
 
 // 	config := cfg.ResetTestRoot("blockchain_reactor_v2_test")

@@ -9,12 +9,12 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/light"
-	"github.com/tendermint/tendermint/light/provider"
-	mockp "github.com/tendermint/tendermint/light/provider/mock"
-	dbs "github.com/tendermint/tendermint/light/store/db"
-	"github.com/tendermint/tendermint/types"
+	"github.com/MagHErmit/tendermint/libs/log"
+	"github.com/MagHErmit/tendermint/light"
+	"github.com/MagHErmit/tendermint/light/provider"
+	mockp "github.com/MagHErmit/tendermint/light/provider/mock"
+	dbs "github.com/MagHErmit/tendermint/light/store/db"
+	"github.com/MagHErmit/tendermint/types"
 )
 
 func TestLightClientAttackEvidence_Lunatic(t *testing.T) {

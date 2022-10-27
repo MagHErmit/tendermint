@@ -9,13 +9,13 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	abcitypes "github.com/tendermint/tendermint/abci/types"
-	tmcfg "github.com/tendermint/tendermint/config"
-	prototmstate "github.com/tendermint/tendermint/proto/tendermint/state"
-	blockmocks "github.com/tendermint/tendermint/state/indexer/mocks"
-	"github.com/tendermint/tendermint/state/mocks"
-	txmocks "github.com/tendermint/tendermint/state/txindex/mocks"
-	"github.com/tendermint/tendermint/types"
+	abcitypes "github.com/MagHErmit/tendermint/abci/types"
+	tmcfg "github.com/MagHErmit/tendermint/config"
+	prototmstate "github.com/MagHErmit/tendermint/proto/tendermint/state"
+	blockmocks "github.com/MagHErmit/tendermint/state/indexer/mocks"
+	"github.com/MagHErmit/tendermint/state/mocks"
+	txmocks "github.com/MagHErmit/tendermint/state/txindex/mocks"
+	"github.com/MagHErmit/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 )
 

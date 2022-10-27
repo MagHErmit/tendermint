@@ -9,16 +9,16 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	tmbytes "github.com/tendermint/tendermint/libs/bytes"
-	tmjson "github.com/tendermint/tendermint/libs/json"
-	tmos "github.com/tendermint/tendermint/libs/os"
-	"github.com/tendermint/tendermint/libs/protoio"
-	"github.com/tendermint/tendermint/libs/tempfile"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	"github.com/tendermint/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	"github.com/MagHErmit/tendermint/crypto"
+	"github.com/MagHErmit/tendermint/crypto/ed25519"
+	tmbytes "github.com/MagHErmit/tendermint/libs/bytes"
+	tmjson "github.com/MagHErmit/tendermint/libs/json"
+	tmos "github.com/MagHErmit/tendermint/libs/os"
+	"github.com/MagHErmit/tendermint/libs/protoio"
+	"github.com/MagHErmit/tendermint/libs/tempfile"
+	tmproto "github.com/MagHErmit/tendermint/proto/tendermint/types"
+	"github.com/MagHErmit/tendermint/types"
+	tmtime "github.com/MagHErmit/tendermint/types/time"
 )
 
 // TODO: type ?

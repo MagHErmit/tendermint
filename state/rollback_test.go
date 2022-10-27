@@ -8,15 +8,15 @@ import (
 	"github.com/stretchr/testify/require"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/tmhash"
-	tmstate "github.com/tendermint/tendermint/proto/tendermint/state"
-	tmversion "github.com/tendermint/tendermint/proto/tendermint/version"
-	"github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/state/mocks"
-	"github.com/tendermint/tendermint/store"
-	"github.com/tendermint/tendermint/types"
-	"github.com/tendermint/tendermint/version"
+	"github.com/MagHErmit/tendermint/crypto"
+	"github.com/MagHErmit/tendermint/crypto/tmhash"
+	tmstate "github.com/MagHErmit/tendermint/proto/tendermint/state"
+	tmversion "github.com/MagHErmit/tendermint/proto/tendermint/version"
+	"github.com/MagHErmit/tendermint/state"
+	"github.com/MagHErmit/tendermint/state/mocks"
+	"github.com/MagHErmit/tendermint/store"
+	"github.com/MagHErmit/tendermint/types"
+	"github.com/MagHErmit/tendermint/version"
 )
 
 func TestRollback(t *testing.T) {

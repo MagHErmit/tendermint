@@ -10,9 +10,9 @@ else
 VERSION := $(shell git describe)
 endif
 
-LD_FLAGS = -X github.com/tendermint/tendermint/version.TMCoreSemVer=$(VERSION)
+LD_FLAGS = -X github.com/MagHErmit/tendermint/version.TMCoreSemVer=$(VERSION)
 BUILD_FLAGS = -mod=readonly -ldflags "$(LD_FLAGS)"
-HTTPS_GIT := https://github.com/tendermint/tendermint.git
+HTTPS_GIT := https://github.com/MagHErmit/tendermint.git
 CGO_ENABLED ?= 0
 
 # handle nostrip
@@ -159,7 +159,7 @@ go.sum: go.mod
 draw_deps:
 	@# requires brew install graphviz or apt-get install graphviz
 	go get github.com/RobotsAndPencils/goviz
-	@goviz -i github.com/tendermint/tendermint/cmd/tendermint -d 3 | dot -Tpng -o dependency-graph.png
+	@goviz -i github.com/MagHErmit/tendermint/cmd/tendermint -d 3 | dot -Tpng -o dependency-graph.png
 .PHONY: draw_deps
 
 get_deps_bin_size:
@@ -195,7 +195,7 @@ clean_certs:
 
 format:
 	find . -name '*.go' -type f -not -path "*.git*" -not -name '*.pb.go' -not -name '*pb_test.go' | xargs gofmt -w -s
-	find . -name '*.go' -type f -not -path "*.git*"  -not -name '*.pb.go' -not -name '*pb_test.go' | xargs goimports -w -local github.com/tendermint/tendermint
+	find . -name '*.go' -type f -not -path "*.git*"  -not -name '*.pb.go' -not -name '*pb_test.go' | xargs goimports -w -local github.com/MagHErmit/tendermint
 .PHONY: format
 
 lint:
@@ -233,7 +233,7 @@ sync-docs:
 
 build-docker: build-linux
 	cp $(OUTPUT) DOCKER/tendermint
-	docker build --label=tendermint --tag="tendermint/tendermint" DOCKER
+	docker build --label=tendermint --tag="MagHErmit/tendermint" DOCKER
 	rm -rf DOCKER/tendermint
 .PHONY: build-docker
 
@@ -255,7 +255,7 @@ build-docker-localnode:
 # Linux-compatible binary. Produces a compatible binary at ./build/tendermint
 build_c-amazonlinux:
 	$(MAKE) -C ./DOCKER build_amazonlinux_buildimage
-	docker run --rm -it -v `pwd`:/tendermint tendermint/tendermint:build_c-amazonlinux
+	docker run --rm -it -v `pwd`:/tendermint MagHErmit/tendermint:build_c-amazonlinux
 .PHONY: build_c-amazonlinux
 
 # Run a 4-node testnet locally

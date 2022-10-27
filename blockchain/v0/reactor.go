@@ -5,13 +5,13 @@ import (
 	"reflect"
 	"time"
 
-	bc "github.com/tendermint/tendermint/blockchain"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/p2p"
-	bcproto "github.com/tendermint/tendermint/proto/tendermint/blockchain"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/store"
-	"github.com/tendermint/tendermint/types"
+	bc "github.com/MagHErmit/tendermint/blockchain"
+	"github.com/MagHErmit/tendermint/libs/log"
+	"github.com/MagHErmit/tendermint/p2p"
+	bcproto "github.com/MagHErmit/tendermint/proto/tendermint/blockchain"
+	sm "github.com/MagHErmit/tendermint/state"
+	"github.com/MagHErmit/tendermint/store"
+	"github.com/MagHErmit/tendermint/types"
 )
 
 const (
